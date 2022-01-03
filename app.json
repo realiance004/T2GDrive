@@ -2,24 +2,38 @@
 	"name": "T2GDrive",
 	"description": "@t4ugdrive_bot",
 	"repository": "https://github.com/RealIancE004/t2Gdrive",
-	"logo": "https://telegra.ph/file/8669281aa2360613f7511.jpg",
-	"keywords": ["Gclone","TG"],
+	"keywords": ["n4u","T4G"],
+	"repository": "https://github.com/RealIancE004/t2Gdrive",
         "website": "https://t.me/t4ugdrive_bot",
         "success_url": "https://github.com/RealIancE004/t2Gdrive/blob/master/README.md",
 	"env": {
-		"telegram_token": {
-			"description": "Get from Telegram @Botfather."
+		"BOT_TOKEN": {
+			"description": "Get from Telegram @Botfather.",
+			"value": ""
 		},
-		"user_ids": {
-			"description": "Your user id. (If you want to add more than 1 User, give IDs seperated by ',').The First user is the Admin"
+	    "GDRIVE_FOLDER_ID": {
+	      "description": "Google Drive Client Secret from Google Cloud Platform",
+			"value": ""
+	    },		
+		"OWNER_ID": {
+			"description": "Your user id. (If you want to add more than 1 User, give IDs seperated by ',').The First user is the Admin",
+			"value": ""
 		},
+	    "TELEGRAM_API": {
+	      "description": "Your api_id, Get it from https://my.telegram.org/apps",
+			"value": ""
+	    },
+	    "TELEGRAM_HASH": {
+	      "description": "Your api_hash, Get it from https://my.telegram.org/apps",
+			"value": ""
+	    },		
 		"group_ids": {
-			"description": "Create a Super Group(s) and add ID Here. Add -1 if you don't want to add a group.(If More than 1 group Give IDs seperated by ',')"
+			"description": "Create a Super Group(s) and add ID Here. Add -1 if you don't want to add a group.(If More than 1 group Give IDs seperated by ',')",
 		},
-		"gclone_para_override": {
-			"description": "Leave this if you don't know how to use it",
-			"required": false
-		}
+	    "GDRIVE_FOLDER_ID": {
+	      "description": "Google Drive Client Secret from Google Cloud Platform",
+	      "value": "X4Z3ca8xfWDb1Voo-F9a7ZxJ"
+	    }
 	},
     	"stack": "container"
 }
