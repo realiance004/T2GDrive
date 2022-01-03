@@ -41,16 +41,9 @@
 	    "DOWNLOAD_DIR": {
 	      "value": "/usr/src/app/downloads"
 	    },
-	    "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
-	      "value": 8
-	    },
-	    "AUTO_DELETE_MESSAGE_DURATION": {
-	      "value": 20
-	    },
 	    "IS_TEAM_DRIVE": {
 	      "value": "True"
 	    }
-
 
 	},
     	"stack": "container"
