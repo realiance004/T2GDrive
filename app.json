@@ -2,8 +2,8 @@
 	"name": "T2GDrive",
 	"description": "T2GDrive",
 	"repository": "https://github.com/RealIancE004/t2Gdrive",
+	"logo": "https://telegra.ph/file/8669281aa2360613f7511.jpg",
 	"keywords": ["Gclone","TG"],
-	"repository": "https://github.com/RealIancE004/t2Gdrive",
         "website": "https://t.me/t4ugdrive_bot",
         "success_url": "https://github.com/RealIancE004/t2Gdrive/blob/master/README.md",
 	"env": {
