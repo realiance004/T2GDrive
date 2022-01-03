@@ -8,24 +8,19 @@
         "success_url": "https://github.com/RealIancE004/t2Gdrive/blob/master/README.md",
 	"env": {
 		"BOT_TOKEN": {
-			"description": "Get from Telegram @Botfather.",
-			"value": ""
+			"description": "Get from Telegram @Botfather."
 		},
 	    "GDRIVE_FOLDER_ID": {
-	      "description": "Google Drive Client Secret from Google Cloud Platform",
-			"value": ""
+	      "description": "Google Drive Client Secret from Google Cloud Platform"
 	    },		
 		"OWNER_ID": {
-			"description": "Your user id. (If you want to add more than 1 User, give IDs seperated by ',').The First user is the Admin",
-			"value": ""
+			"description": "Your user id. (If you want to add more than 1 User, give IDs seperated by ',').The First user is the Admin"
 		},
 	    "TELEGRAM_API": {
-	      "description": "Your api_id, Get it from https://my.telegram.org/apps",
-			"value": ""
+	      "description": "Your api_id, Get it from https://my.telegram.org/apps"
 	    },
 	    "TELEGRAM_HASH": {
-	      "description": "Your api_hash, Get it from https://my.telegram.org/apps",
-			"value": ""
+	      "description": "Your api_hash, Get it from https://my.telegram.org/apps"
 	    },		
 		"group_ids": {
 			"description": "Create a Super Group(s) and add ID Here. Add -1 if you don't want to add a group.(If More than 1 group Give IDs seperated by ',')",
