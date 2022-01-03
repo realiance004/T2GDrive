@@ -29,14 +29,14 @@
 	    "INDEX_URL": {
 	      "description": "Google Drive INDEX_URL"
 	    },
-	    "UPTOBOX_TOKEN": {
-	      "description": "UPTOBOX_TOKEN"
-	    },
 	    "HEROKU_API_KEY": {
 	      "description": "HEROKU_API_KEY"
 	    },
 	    "HEROKU_APP_NAME": {
 	      "description": "HEROKU_APP_NAME"
+	    },
+	    "UPTOBOX_TOKEN": {
+	      "description": "UPTOBOX_TOKEN"
 	    },
 	    "DOWNLOAD_DIR": {
 	      "value": "/usr/src/app/downloads"
