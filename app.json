@@ -2,8 +2,8 @@
 	"name": "T2GDrive",
 	"description": "@t4ugdrive_bot",
 	"repository": "https://github.com/RealIancE004/t2Gdrive",
-	"keywords": ["Gclone","TG"],
-	"repository": "https://github.com/RealIancE004/t2Gdrive",
+	"logo": "https://telegra.ph/file/8669281aa2360613f7511.jpg",
+	"keywords": ["n4u","T4G"],
         "website": "https://t.me/t4ugdrive_bot",
         "success_url": "https://github.com/RealIancE004/t2Gdrive/blob/master/README.md",
 	"env": {
@@ -22,13 +22,36 @@
 	    "TELEGRAM_HASH": {
 	      "description": "Your api_hash, Get it from https://my.telegram.org/apps"
 	    },		
-		"group_ids": {
-			"description": "Create a Super Group(s) and add ID Here. Add -1 if you don't want to add a group.(If More than 1 group Give IDs seperated by ',')"
+		"Group_ids": {
+			"description": "Create a Super Group(s) and add ID Here. Add -1 if you don't want to add a group.(If More than 1 group Give IDs seperated by ',')",
+			"required": false
 		},
-	    "GDRIVE_FOLDER_ID": {
-	      "description": "Google Drive Client Secret from Google Cloud Platform",
-	      "value": "X4Z3ca8xfWDb1Voo-F9a7ZxJ"
+	    "INDEX_URL": {
+	      "description": "Google Drive INDEX_URL"
+	    },
+	    "UPTOBOX_TOKEN": {
+	      "description": "UPTOBOX_TOKEN"
+	    },
+	    "HEROKU_API_KEY": {
+	      "description": "HEROKU_API_KEY"
+	    },
+	    "HEROKU_APP_NAME": {
+	      "description": "HEROKU_APP_NAME"
+	    },
+	    "DOWNLOAD_DIR": {
+	      "value": "/usr/src/app/downloads"
+	    },
+	    "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
+	      "value": 8
+	    },
+	    "AUTO_DELETE_MESSAGE_DURATION": {
+	      "value": 20
+	    },
+	    "IS_TEAM_DRIVE": {
+	      "value": "True"
 	    }
+
+
 	},
     	"stack": "container"
 }
